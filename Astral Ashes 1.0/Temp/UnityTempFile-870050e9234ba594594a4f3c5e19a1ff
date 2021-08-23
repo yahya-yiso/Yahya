@@ -1,0 +1,549 @@
+/target:library
+/out:Temp/Unity.PlasticSCM.Editor.dll
+/nowarn:0169
+/nowarn:0649
+/debug:portable
+/optimize-
+/nostdlib+
+/preferreduilang:en-US
+/langversion:latest
+/reference:Library/ScriptAssemblies/UnityEditor.UI.dll
+/reference:Library/ScriptAssemblies/UnityEngine.UI.dll
+/reference:Library/ScriptAssemblies/UnityEditor.TestRunner.dll
+/reference:Library/ScriptAssemblies/UnityEngine.TestRunner.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AndroidJNIModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.DSPGraphModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.InputLegacyModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.SubsystemsModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEditor.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/UnityExtensions/Unity/UnityVR/Editor/UnityEditor.VR.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/Managed/UnityEditor.Graphs.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+/reference:"D:/Study/9th/Capstone/Astral Ashes 1.0/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/unityplastic.dll"
+/reference:"D:/Study/9th/Capstone/Astral Ashes 1.0/Library/PackageCache/com.unity.collab-proxy@1.6.0/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
+/reference:"D:/Study/9th/Capstone/Astral Ashes 1.0/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll"
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/mscorlib.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Core.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Runtime.Serialization.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Xml.Linq.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Numerics.Vectors.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Net.Http.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.IO.Compression.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Microsoft.CSharp.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/System.Data.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/Microsoft.Win32.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/netstandard.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.AppContext.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Concurrent.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.NonGeneric.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Collections.Specialized.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Annotations.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.EventBasedAsync.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ComponentModel.TypeConverter.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Console.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Data.Common.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Contracts.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Debug.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.FileVersionInfo.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Process.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.StackTrace.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TextWriterTraceListener.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.Tools.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Diagnostics.TraceSource.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Drawing.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Dynamic.Runtime.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Calendars.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Globalization.Extensions.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Compression.ZipFile.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.DriveInfo.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.FileSystem.Watcher.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.IsolatedStorage.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.MemoryMappedFiles.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.Pipes.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.IO.UnmanagedMemoryStream.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Expressions.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Parallel.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Linq.Queryable.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Http.Rtc.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NameResolution.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.NetworkInformation.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Ping.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Requests.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Security.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.Sockets.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebHeaderCollection.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.Client.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Net.WebSockets.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ObjectModel.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.ILGeneration.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Emit.Lightweight.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Extensions.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Reflection.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Reader.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.ResourceManager.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Resources.Writer.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.CompilerServices.VisualC.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Extensions.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Handles.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.RuntimeInformation.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.InteropServices.WindowsRuntime.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Numerics.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Formatters.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Json.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Runtime.Serialization.Xml.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Claims.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Algorithms.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Csp.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Encoding.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Cryptography.X509Certificates.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.Principal.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Security.SecureString.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Duplex.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Http.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.NetTcp.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Primitives.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ServiceModel.Security.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.Encoding.Extensions.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Text.RegularExpressions.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Overlapped.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Tasks.Parallel.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Thread.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.ThreadPool.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Threading.Timer.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.ValueTuple.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.ReaderWriter.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XDocument.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlDocument.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XmlSerializer.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/4.7.1-api/Facades/System.Xml.XPath.XDocument.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/UnityScript.Lang.dll
+/reference:D:/Softwares/Creativity/2020.3.11f1/Editor/Data/MonoBleedingEdge/lib/mono/unityscript/Boo.Lang.dll
+/define:UNITY_2019_4_29
+/define:UNITY_2019_4
+/define:UNITY_2019
+/define:UNITY_5_3_OR_NEWER
+/define:UNITY_5_4_OR_NEWER
+/define:UNITY_5_5_OR_NEWER
+/define:UNITY_5_6_OR_NEWER
+/define:UNITY_2017_1_OR_NEWER
+/define:UNITY_2017_2_OR_NEWER
+/define:UNITY_2017_3_OR_NEWER
+/define:UNITY_2017_4_OR_NEWER
+/define:UNITY_2018_1_OR_NEWER
+/define:UNITY_2018_2_OR_NEWER
+/define:UNITY_2018_3_OR_NEWER
+/define:UNITY_2018_4_OR_NEWER
+/define:UNITY_2019_1_OR_NEWER
+/define:UNITY_2019_2_OR_NEWER
+/define:UNITY_2019_3_OR_NEWER
+/define:UNITY_2019_4_OR_NEWER
+/define:PLATFORM_ARCH_64
+/define:UNITY_64
+/define:UNITY_INCLUDE_TESTS
+/define:ENABLE_AR
+/define:ENABLE_AUDIO
+/define:ENABLE_CACHING
+/define:ENABLE_CLOTH
+/define:ENABLE_EVENT_QUEUE
+/define:ENABLE_MICROPHONE
+/define:ENABLE_MULTIPLE_DISPLAYS
+/define:ENABLE_PHYSICS
+/define:ENABLE_TEXTURE_STREAMING
+/define:ENABLE_UNET
+/define:ENABLE_LZMA
+/define:ENABLE_UNITYEVENTS
+/define:ENABLE_VR
+/define:ENABLE_WEBCAM
+/define:ENABLE_UNITYWEBREQUEST
+/define:ENABLE_WWW
+/define:ENABLE_CLOUD_SERVICES
+/define:ENABLE_CLOUD_SERVICES_COLLAB
+/define:ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS
+/define:ENABLE_CLOUD_SERVICES_ADS
+/define:ENABLE_CLOUD_SERVICES_USE_WEBREQUEST
+/define:ENABLE_CLOUD_SERVICES_CRASH_REPORTING
+/define:ENABLE_CLOUD_SERVICES_PURCHASING
+/define:ENABLE_CLOUD_SERVICES_ANALYTICS
+/define:ENABLE_CLOUD_SERVICES_UNET
+/define:ENABLE_CLOUD_SERVICES_BUILD
+/define:ENABLE_CLOUD_LICENSE
+/define:ENABLE_EDITOR_HUB_LICENSE
+/define:ENABLE_WEBSOCKET_CLIENT
+/define:ENABLE_DIRECTOR_AUDIO
+/define:ENABLE_DIRECTOR_TEXTURE
+/define:ENABLE_MANAGED_JOBS
+/define:ENABLE_MANAGED_TRANSFORM_JOBS
+/define:ENABLE_MANAGED_ANIMATION_JOBS
+/define:ENABLE_MANAGED_AUDIO_JOBS
+/define:INCLUDE_DYNAMIC_GI
+/define:ENABLE_MONO_BDWGC
+/define:ENABLE_SCRIPTING_GC_WBARRIERS
+/define:PLATFORM_SUPPORTS_MONO
+/define:RENDER_SOFTWARE_CURSOR
+/define:ENABLE_VIDEO
+/define:PLATFORM_STANDALONE
+/define:PLATFORM_STANDALONE_WIN
+/define:UNITY_STANDALONE_WIN
+/define:UNITY_STANDALONE
+/define:ENABLE_RUNTIME_GI
+/define:ENABLE_MOVIES
+/define:ENABLE_NETWORK
+/define:ENABLE_CRUNCH_TEXTURE_COMPRESSION
+/define:ENABLE_OUT_OF_PROCESS_CRASH_HANDLER
+/define:ENABLE_CLUSTER_SYNC
+/define:ENABLE_CLUSTERINPUT
+/define:GFXDEVICE_WAITFOREVENT_MESSAGEPUMP
+/define:ENABLE_WEBSOCKET_HOST
+/define:ENABLE_MONO
+/define:NET_4_6
+/define:ENABLE_PROFILER
+/define:DEBUG
+/define:TRACE
+/define:UNITY_ASSERTIONS
+/define:UNITY_EDITOR
+/define:UNITY_EDITOR_64
+/define:UNITY_EDITOR_WIN
+/define:ENABLE_UNITY_COLLECTIONS_CHECKS
+/define:ENABLE_BURST_AOT
+/define:UNITY_TEAM_LICENSE
+/define:ENABLE_CUSTOM_RENDER_TEXTURE
+/define:ENABLE_DIRECTOR
+/define:ENABLE_LOCALIZATION
+/define:ENABLE_SPRITES
+/define:ENABLE_TERRAIN
+/define:ENABLE_TILEMAP
+/define:ENABLE_TIMELINE
+/define:ENABLE_INPUT_SYSTEM
+/define:CSHARP_7_OR_LATER
+/define:CSHARP_7_3_OR_NEWER
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssemblyInfo.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\AssetMenuItems.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\AssetMenuOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\AssetMenuRoutingOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\AssetOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\AssetsSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\Dialogs\CheckinDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\Dialogs\CheckinDialogOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetMenu\ProjectViewAssetSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\AssetStatus.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\Cache\AssetStatusCache.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\Cache\BuildPathDictionary.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\Cache\LocalStatusCache.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\Cache\LockStatusCache.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\Cache\RemoteStatusCache.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\Cache\SearchLocks.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetOverlays\DrawAssetOverlay.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\AssetsPath.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\LoadAsset.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\Processor\AssetModificationProcessor.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\Processor\AssetPostprocessor.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\Processor\AssetsProcessor.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\Processor\PlasticAssetsProcessor.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\ProjectPath.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\RefreshAsset.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AssetsUtils\SaveAssets.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\AutoRefresh.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Beta\CalculateUserBetaProgramSetting.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CheckWorkspaceTreeNodeStatus.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CloudProjectDownloader\AutoConfigClientConf.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CloudProjectDownloader\CloudProjectDownloader.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CloudProjectDownloader\CommandLineArguments.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CloudProjectDownloader\DownloadRepositoryOperation.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CloudProjectDownloader\ParseArguments.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\CollabPlugin.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\ChannelCertificateUiImpl.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\AutoLogin.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CloudEditionWelcomeWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CreateOrganizationPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\CreatedOrganizationPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\OrganizationPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\SSOSignUpPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\SignInPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\SignInWithEmailPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CloudEdition\Welcome\WaitingSignInPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\ConfigurePartialWorkspace.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CredentialsDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\CredentialsUIImpl.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\EncryptionConfigurationDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\MissingEncryptionPasswordPromptHandler.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\SSOCredentialsDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\TeamEdition\TeamEditionConfigurationWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\ToolConfig.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\TurnOffPlastic\TurnOffPlasticWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Configuration\WriteLogConfiguration.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\CheckinProgress.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\GenericProgress.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\IncomingChangesNotificationPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\ProgressOperationHandler.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\UpdateProgress.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportLineListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportListHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Developer\UpdateReport\UpdateReportListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\DrawGuiModeSwitcher.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\DrawIncomingChangesNotificationPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\EnumExtensions.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\FindWorkspace.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\GetRelativePath.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\CheckinProgress.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\IncomingChangesNotificationPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\ProgressOperationHandler.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\UpdateProgress.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\UpdateReport\ErrorListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Gluon\UpdateReport\UpdateReportListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\BuildFormattedHelp.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\DrawHelpPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\HelpData.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\HelpFormat.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\HelpLink.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\HelpLinkData.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\HelpPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Help\TestingHelpData.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Inspector\DrawInspectorOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Inspector\InspectorAssetSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\MetaPath.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\NewIncomingChanges.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\PlasticApp.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\PlasticMenuItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\PlasticWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\PlasticWindow\PlasticSCMWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\SetupCloudProjectId.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\SwitchModeConfirmationDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Tool\BringWindowToFront.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Tool\FindTool.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Tool\IsExeAvailable.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Tool\LaunchInstaller.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Tool\LaunchTool.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Tool\ToolConstants.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Avatar\ApplyCircleMask.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Avatar\AvatarImages.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Avatar\GetAvatar.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\BoolSetting.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\CooldownWindowDelayer.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\DockEditorWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\DrawActionButton.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\DrawActionHelpBox.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\DrawSearchField.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\DrawSplitter.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\DropDownTextField.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\EditorDispatcher.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\EditorProgressBar.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\EditorProgressControls.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\EditorVersion.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\EditorWindowFocus.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\EnumPopupSetting.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\FindEditorWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\GUIActionRunner.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\GUISpace.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\GetPlasticShortcut.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\GuiEnabled.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\HandleMenuItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Images.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\MeasureMaxWidth.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Message\DrawDialogIcon.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Message\PlasticQuestionAlert.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\PlasticDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\PlasticSplitterGUILayout.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Progress\DrawProgressForDialogs.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Progress\DrawProgressForOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Progress\DrawProgressForViews.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Progress\OperationProgressData.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Progress\ProgressControlsForDialogs.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Progress\ProgressControlsForViews.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\ResponseType.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\RunModal.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\ShowWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\SortOrderComparer.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\TabButton.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\DrawTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\GetChangesOverlayIcon.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\ListViewItemIds.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\TableViewOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\TreeHeaderColumns.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\TreeHeaderSettings.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\Tree\TreeViewItemIds.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UIElements\LoadingSpinner.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UIElements\ProgressControlsForDialogs.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UIElements\TabView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UIElements\UIElementsExtensions.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityConstants.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityEvents.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityMenuItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityPlasticGuiMessage.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityPlasticTimer.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityStyles.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UI\UnityThreadWaiter.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\UnityConfigurationChecker.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\VCSPlugin.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\ViewSwitcher.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\ChangesetListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\ChangesetsListHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\ChangesetsListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\ChangesetsSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\ChangesetsTab.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\ChangesetsViewMenu.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\DateFilter.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Changesets\LaunchDiffOperations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\CreateWorkspaceView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\CreateWorkspaceViewState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\CreateRepositoryDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoriesListHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoriesListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoryExplorerDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\Dialogs\RepositoryListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\DrawCreateWorkspaceView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\CreateWorkspace\ValidRepositoryName.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\ChangeCategoryTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\ClientDiffTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\Dialogs\GetRestorePathDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\DiffPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\DiffSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\DiffTreeView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\DiffTreeViewMenu.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\GetClientDiffInfos.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\MergeCategoryTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Diff\UnityDiffTree.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\DownloadPlasticExeWindow.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\FileSystemOperation.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\HistoryListHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\HistoryListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\HistoryListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\HistoryListViewMenu.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\HistorySelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\HistoryTab.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\History\SaveAction.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\ChangeCategoryTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\ChangeTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\ConflictResolutionState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\DirectoryConflicts\DrawDirectoryResolutionPanel.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTab.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTreeHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesTreeView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IncomingChangesViewMenu.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsCurrent.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\IsResolved.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Developer\UnityIncomingChangesTree.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\ChangeCategoryTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\ChangeTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorsListHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\Errors\ErrorsListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTab.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTreeHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesTreeView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\IncomingChangesViewMenu.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\Gluon\UnityIncomingChangesTree.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\IncomingChanges\IIncomingChangesTab.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\ChangeCategoryTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\ChangeTreeViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\CheckinConflictsDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\CheckinMergeNeededDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\DependenciesDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\FilterRulesConfirmationDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\LaunchCheckinConflictsDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\LaunchDependenciesDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\Dialogs\PendingChangesOptionsDialog.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\DrawCommentTextArea.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\FilesFilterPatternsMenuBuilder.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesMultiColumnHeader.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesSelection.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTab.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTab_Operations.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTreeHeaderState.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesTreeView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingChangesViewMenu.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingMergeLinks\MergeLinkListViewItem.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\PendingMergeLinks\MergeLinksListView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\PendingChanges\UnityPendingChangesTree.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Welcome\DownloadAndInstallOperation.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Welcome\GetInstallerTmpFileName.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Welcome\MacOSConfigWorkaround.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\Views\Welcome\WelcomeView.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\WebApi\CredentialsResponse.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\WebApi\PlasticScmRestApiClient.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\WebApi\TokenExchangeResponse.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\WebApi\UnityPackageBetaEnrollResponse.cs"
+"D:\Study\9th\Capstone\Astral Ashes 1.0\Library\PackageCache\com.unity.collab-proxy@1.6.0\Editor\PlasticSCM\WorkspaceWindow.cs"
